@@ -1,0 +1,804 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "Simple"
+    },
+    {
+      "kind": "Function",
+      "name": "mainMenu",
+      "printedName": "mainMenu()",
+      "children": [
+        {
+          "kind": "TypeNominal",
+          "name": "Int",
+          "printedName": "Swift.Int",
+          "usr": "s:Si"
+        }
+      ],
+      "declKind": "Func",
+      "usr": "s:6Simple8mainMenuSiyF",
+      "mangledName": "$s6Simple8mainMenuSiyF",
+      "moduleName": "Simple",
+      "declAttributes": [
+        "RawDocComment"
+      ],
+      "funcSelfKind": "NonMutating"
+    },
+    {
+      "kind": "Var",
+      "name": "ch",
+      "printedName": "ch",
+      "children": [
+        {
+          "kind": "TypeNominal",
+          "name": "Int",
+          "printedName": "Swift.Int",
+          "usr": "s:Si"
+        }
+      ],
+      "declKind": "Var",
+      "usr": "s:6Simple2chSivp",
+      "mangledName": "$s6Simple2chSivp",
+      "moduleName": "Simple",
+      "declAttributes": [
+        "HasInitialValue",
+        "HasStorage",
+        "RawDocComment"
+      ],
+      "hasStorage": true
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "Simple"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "Hangman",
+      "printedName": "Hangman",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "getRandomName",
+          "printedName": "getRandomName()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:6Simple7HangmanC13getRandomNameSSyF",
+          "mangledName": "$s6Simple7HangmanC13getRandomNameSSyF",
+          "moduleName": "Simple",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "printbodyStages",
+          "printedName": "printbodyStages(wrong:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:6Simple7HangmanC15printbodyStages5wrongySi_tF",
+          "mangledName": "$s6Simple7HangmanC15printbodyStages5wrongySi_tF",
+          "moduleName": "Simple",
+          "isOpen": true,
+          "declAttributes": [
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "drawBoard",
+          "printedName": "drawBoard()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:6Simple7HangmanC9drawBoardyyF",
+          "mangledName": "$s6Simple7HangmanC9drawBoardyyF",
+          "moduleName": "Simple",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "checkGuess",
+          "printedName": "checkGuess()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:6Simple7HangmanC10checkGuessyyF",
+          "mangledName": "$s6Simple7HangmanC10checkGuessyyF",
+          "moduleName": "Simple",
+          "isOpen": true,
+          "declAttributes": [
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "askGuess",
+          "printedName": "askGuess()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:6Simple7HangmanC8askGuessyyF",
+          "mangledName": "$s6Simple7HangmanC8askGuessyyF",
+          "moduleName": "Simple",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "updateGame",
+          "printedName": "updateGame()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:6Simple7HangmanC10updateGameyyF",
+          "mangledName": "$s6Simple7HangmanC10updateGameyyF",
+          "moduleName": "Simple",
+          "isOpen": true,
+          "declAttributes": [
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "printGuessedLetters",
+          "printedName": "printGuessedLetters()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:6Simple7HangmanC19printGuessedLettersyyF",
+          "mangledName": "$s6Simple7HangmanC19printGuessedLettersyyF",
+          "moduleName": "Simple",
+          "isOpen": true,
+          "declAttributes": [
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "getRightGuesses",
+          "printedName": "getRightGuesses()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:6Simple7HangmanC15getRightGuessesSSyF",
+          "mangledName": "$s6Simple7HangmanC15getRightGuessesSSyF",
+          "moduleName": "Simple",
+          "isOpen": true,
+          "declAttributes": [
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Var",
+          "name": "allGuesses",
+          "printedName": "allGuesses",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Swift.Character]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Character",
+                  "printedName": "Swift.Character",
+                  "usr": "s:SJ"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:6Simple7HangmanC10allGuessesSaySJGvp",
+          "mangledName": "$s6Simple7HangmanC10allGuessesSaySJGvp",
+          "moduleName": "Simple",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[Swift.Character]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Character",
+                      "printedName": "Swift.Character",
+                      "usr": "s:SJ"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:6Simple7HangmanC10allGuessesSaySJGvg",
+              "mangledName": "$s6Simple7HangmanC10allGuessesSaySJGvg",
+              "moduleName": "Simple",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[Swift.Character]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Character",
+                      "printedName": "Swift.Character",
+                      "usr": "s:SJ"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:6Simple7HangmanC10allGuessesSaySJGvs",
+              "mangledName": "$s6Simple7HangmanC10allGuessesSaySJGvs",
+              "moduleName": "Simple",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:6Simple7HangmanC10allGuessesSaySJGvM",
+              "mangledName": "$s6Simple7HangmanC10allGuessesSaySJGvM",
+              "moduleName": "Simple",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "guess",
+          "printedName": "guess",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Character",
+              "printedName": "Swift.Character",
+              "usr": "s:SJ"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:6Simple7HangmanC5guessSJvp",
+          "mangledName": "$s6Simple7HangmanC5guessSJvp",
+          "moduleName": "Simple",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Character",
+                  "printedName": "Swift.Character",
+                  "usr": "s:SJ"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:6Simple7HangmanC5guessSJvg",
+              "mangledName": "$s6Simple7HangmanC5guessSJvg",
+              "moduleName": "Simple",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Character",
+                  "printedName": "Swift.Character",
+                  "usr": "s:SJ"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:6Simple7HangmanC5guessSJvs",
+              "mangledName": "$s6Simple7HangmanC5guessSJvs",
+              "moduleName": "Simple",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:6Simple7HangmanC5guessSJvM",
+              "mangledName": "$s6Simple7HangmanC5guessSJvM",
+              "moduleName": "Simple",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "numberOfWrongGuesses",
+          "printedName": "numberOfWrongGuesses",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:6Simple7HangmanC20numberOfWrongGuessesSivp",
+          "mangledName": "$s6Simple7HangmanC20numberOfWrongGuessesSivp",
+          "moduleName": "Simple",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:6Simple7HangmanC20numberOfWrongGuessesSivg",
+              "mangledName": "$s6Simple7HangmanC20numberOfWrongGuessesSivg",
+              "moduleName": "Simple",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:6Simple7HangmanC20numberOfWrongGuessesSivs",
+              "mangledName": "$s6Simple7HangmanC20numberOfWrongGuessesSivs",
+              "moduleName": "Simple",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:6Simple7HangmanC20numberOfWrongGuessesSivM",
+              "mangledName": "$s6Simple7HangmanC20numberOfWrongGuessesSivM",
+              "moduleName": "Simple",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "answer",
+          "printedName": "answer",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:6Simple7HangmanC6answerSSvp",
+          "mangledName": "$s6Simple7HangmanC6answerSSvp",
+          "moduleName": "Simple",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 3,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:6Simple7HangmanC6answerSSvg",
+              "mangledName": "$s6Simple7HangmanC6answerSSvg",
+              "moduleName": "Simple",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:6Simple7HangmanC6answerSSvs",
+              "mangledName": "$s6Simple7HangmanC6answerSSvs",
+              "moduleName": "Simple",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:6Simple7HangmanC6answerSSvM",
+              "mangledName": "$s6Simple7HangmanC6answerSSvM",
+              "moduleName": "Simple",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "isRunning",
+          "printedName": "isRunning",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:6Simple7HangmanC9isRunningSbvp",
+          "mangledName": "$s6Simple7HangmanC9isRunningSbvp",
+          "moduleName": "Simple",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 4,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:6Simple7HangmanC9isRunningSbvg",
+              "mangledName": "$s6Simple7HangmanC9isRunningSbvg",
+              "moduleName": "Simple",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:6Simple7HangmanC9isRunningSbvs",
+              "mangledName": "$s6Simple7HangmanC9isRunningSbvs",
+              "moduleName": "Simple",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:6Simple7HangmanC9isRunningSbvM",
+              "mangledName": "$s6Simple7HangmanC9isRunningSbvM",
+              "moduleName": "Simple",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "start",
+          "printedName": "start()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:6Simple7HangmanC5startyyF",
+          "mangledName": "$s6Simple7HangmanC5startyyF",
+          "moduleName": "Simple",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Hangman",
+              "printedName": "Simple.Hangman",
+              "usr": "s:6Simple7HangmanC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:6Simple7HangmanCACycfc",
+          "mangledName": "$s6Simple7HangmanCACycfc",
+          "moduleName": "Simple",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:6Simple7HangmanC",
+      "mangledName": "$s6Simple7HangmanC",
+      "moduleName": "Simple",
+      "isOpen": true,
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    }
+  ],
+  "json_format_version": 6
+}

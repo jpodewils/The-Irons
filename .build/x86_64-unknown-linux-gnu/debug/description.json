@@ -1,0 +1,79 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.Simple-debug.module" : {
+      "executable" : "/opt/swift-5.6.1-RELEASE-ubuntu20.04/usr/bin/swiftc",
+      "importPath" : "/home/jake-podewils/project/isp/The-Irons/.build/x86_64-unknown-linux-gnu/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/jake-podewils/project/isp/The-Irons/HangmanGame.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/jake-podewils/project/isp/The-Irons/main.swift"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "Simple",
+      "moduleOutputPath" : "/home/jake-podewils/project/isp/The-Irons/.build/x86_64-unknown-linux-gnu/debug/Simple.build/Simple.swiftmodule",
+      "objects" : [
+        "/home/jake-podewils/project/isp/The-Irons/.build/x86_64-unknown-linux-gnu/debug/Simple.build/HangmanGame.swift.o",
+        "/home/jake-podewils/project/isp/The-Irons/.build/x86_64-unknown-linux-gnu/debug/Simple.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-linux-gnu",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/home/jake-podewils/project/isp/The-Irons/.build/x86_64-unknown-linux-gnu/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-g",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/home/jake-podewils/project/isp/The-Irons/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+        "-parseable-output",
+        "-color-diagnostics"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/jake-podewils/project/isp/The-Irons/.build/x86_64-unknown-linux-gnu/debug/Simple.build/HangmanGame.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/jake-podewils/project/isp/The-Irons/.build/x86_64-unknown-linux-gnu/debug/Simple.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/jake-podewils/project/isp/The-Irons/.build/x86_64-unknown-linux-gnu/debug/Simple.build/Simple.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/home/jake-podewils/project/isp/The-Irons/HangmanGame.swift",
+        "/home/jake-podewils/project/isp/The-Irons/main.swift"
+      ],
+      "tempsPath" : "/home/jake-podewils/project/isp/The-Irons/.build/x86_64-unknown-linux-gnu/debug/Simple.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "testDiscoveryCommands" : {
+
+  }
+}

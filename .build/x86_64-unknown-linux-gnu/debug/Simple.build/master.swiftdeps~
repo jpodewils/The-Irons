@@ -1,0 +1,7 @@
+version: "Swift version 5.6.1 (swift-5.6.1-RELEASE)"
+options: "bb4a94a12ff7ec22b2e1f1ade65daf121ef7715d8d60c7fdd4f1dc513cb662d4"
+build_start_time: [1652153494, 519237041]
+build_end_time: [1652153499, 56028]
+inputs:
+  "/home/jake-podewils/project/isp/The-Irons/HangmanViewController.swift": !private [1651503624, 34697055]
+  "/home/jake-podewils/project/isp/The-Irons/main.swift": !private [1651157345, 179955244]

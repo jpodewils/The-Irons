@@ -1,0 +1,7 @@
+version: "Swift version 5.6.1 (swift-5.6.1-RELEASE)"
+options: "bb4a94a12ff7ec22b2e1f1ade65daf121ef7715d8d60c7fdd4f1dc513cb662d4"
+build_start_time: [1652204411, 180124044]
+build_end_time: [1652204411, 597409963]
+inputs:
+  "/home/jake-podewils/project/isp/The-Irons/HangmanGame.swift": [1652204406, 368270397]
+  "/home/jake-podewils/project/isp/The-Irons/main.swift": [1652153558, 57626485]

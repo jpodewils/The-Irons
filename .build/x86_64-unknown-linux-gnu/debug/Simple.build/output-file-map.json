@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/home/jake-podewils/project/isp/The-Irons/.build/x86_64-unknown-linux-gnu/debug/Simple.build/master.swiftdeps"
+  },
+  "/home/jake-podewils/project/isp/The-Irons/HangmanGame.swift": {
+    "dependencies": "/home/jake-podewils/project/isp/The-Irons/.build/x86_64-unknown-linux-gnu/debug/Simple.build/HangmanGame.d",
+    "object": "/home/jake-podewils/project/isp/The-Irons/.build/x86_64-unknown-linux-gnu/debug/Simple.build/HangmanGame.swift.o",
+    "swiftmodule": "/home/jake-podewils/project/isp/The-Irons/.build/x86_64-unknown-linux-gnu/debug/Simple.build/HangmanGame~partial.swiftmodule",
+    "swift-dependencies": "/home/jake-podewils/project/isp/The-Irons/.build/x86_64-unknown-linux-gnu/debug/Simple.build/HangmanGame.swiftdeps"
+  },
+  "/home/jake-podewils/project/isp/The-Irons/main.swift": {
+    "dependencies": "/home/jake-podewils/project/isp/The-Irons/.build/x86_64-unknown-linux-gnu/debug/Simple.build/main.d",
+    "object": "/home/jake-podewils/project/isp/The-Irons/.build/x86_64-unknown-linux-gnu/debug/Simple.build/main.swift.o",
+    "swiftmodule": "/home/jake-podewils/project/isp/The-Irons/.build/x86_64-unknown-linux-gnu/debug/Simple.build/main~partial.swiftmodule",
+    "swift-dependencies": "/home/jake-podewils/project/isp/The-Irons/.build/x86_64-unknown-linux-gnu/debug/Simple.build/main.swiftdeps"
+  }
+}
